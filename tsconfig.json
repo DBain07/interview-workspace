@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "sourceMap": true,
+    "noUnusedLocals": true, // Enable error for unused local variables
+    "noUnusedParameters": true // Enable error for unused function parameters
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
