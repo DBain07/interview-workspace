@@ -7,13 +7,13 @@
     "skipLibCheck": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "sourceMap": true,
-    "noUnusedLocals": true, // Enable error for unused local variables
-    "noUnusedParameters": true // Enable error for unused function parameters
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
-  "include": ["src"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
